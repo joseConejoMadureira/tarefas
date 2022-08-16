@@ -20,6 +20,8 @@ export default {
 <style>
 .task-grid {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .task-grid .task{
     margin: 10px;
