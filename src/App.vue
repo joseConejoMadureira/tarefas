@@ -15,7 +15,8 @@ export default {
     return {
       task: [
         { name: "Lavar louça", pending: false },
-        { name: "Comprar blusa", pending: true },
+        { name: "Comprar blusa", pending: true }
+		
       ],
     };
   },
