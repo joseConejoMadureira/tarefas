@@ -11,6 +11,8 @@ export default {
   computed: {
     stateClass() {
       return {
+        //vuejs reconhece que na diretiva  :class valor é atribuido é a chave do json
+        //baseado em valor boleano this.task.pending
         pending: this.task.pending,
         done: !this.task.pending,
       };
